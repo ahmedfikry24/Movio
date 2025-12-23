@@ -56,6 +56,8 @@ kotlin {
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+            implementation(libs.junit)
+            implementation(libs.kotlin.testJunit )
         }
     }
 }
