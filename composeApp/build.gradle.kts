@@ -36,6 +36,7 @@ kotlin {
             implementation(libs.androidx.navigation3.ui )
             implementation(libs.androidx.navigation3.runtime  )
             implementation(libs.ktor.client.android)
+            implementation(libs.androidx.paging3.runtime )
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -68,6 +69,7 @@ kotlin {
             implementation(libs.androidx.sqlite.bundled)
 
             implementation(libs.coil)
+            implementation(libs.paging3.compose)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)

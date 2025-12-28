@@ -16,6 +16,8 @@ kotlin-serialization-json = "1.9.0"
 ktor = "3.3.3"
 koin = "4.1.1"
 coil = "3.3.0"
+paging3 = "3.4.0-beta01"
+androidx-paging = "3.3.6"
 room = "2.8.4"
 sqlite = "2.6.2"
 ksp = "2.3.0"
@@ -51,6 +53,8 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 # coil
 coil = { module = "io.coil-kt.coil3:coil", version.ref = "coil" }
+paging3-compose = { module = "androidx.paging:paging-compose", version.ref = "paging3" }
+androidx-paging3-runtime = { module = "androidx.paging:paging-runtime", version.ref = "androidx-paging" }
 # test
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 junit = { module = "junit:junit", version.ref = "junit" }
