@@ -70,6 +70,8 @@ kotlin {
 
             implementation(libs.coil)
             implementation(libs.paging3.compose)
+
+            implementation(projects.designSystem)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
