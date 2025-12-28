@@ -6,7 +6,6 @@ android-targetSdk = "36"
 androidx-activity = "1.12.2"
 androidx-lifecycle = "2.9.6"
 composeMultiplatform = "1.9.3"
-junit = "4.13.2"
 kotlin = "2.3.0"
 stability-analyzer = "0.6.5"
 navigation3 = "1.0.0"
@@ -20,6 +19,7 @@ coil = "3.3.0"
 room = "2.8.4"
 sqlite = "2.6.2"
 ksp = "2.3.0"
+junit = "4.13.2"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
