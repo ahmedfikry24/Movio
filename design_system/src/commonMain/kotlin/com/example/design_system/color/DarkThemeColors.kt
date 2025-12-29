@@ -3,7 +3,7 @@ package com.example.design_system.color
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
-val darkThemeColors = SchemaColors(
+internal val darkThemeColors = SchemaColors(
     brand = SchemaColors.Brand(
         primary = Color(0xFF724CF8),
         onPrimary = Color(0xFFEBE6FE),
